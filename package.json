@@ -1,29 +1,27 @@
 {
-  "name": "rx_zoom",
+  "name": "rxjs-image-zoom",
   "version": "1.0.0",
-  "description": "hover and zoom in an image using Rxjs",
-  "main": "main.js",
+  "description": "rxjs image zoom example",
+  "main": "index.js",
   "scripts": {
+    "start": "webpack -wdc --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinyzhang9/rx_zoom.git"
-  },
   "keywords": [
-    "hover",
-    "zoom",
+    "rxjs",
     "image",
-    "Rxjs"
+    "zoom"
   ],
   "author": "xinyzhang9@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xinyzhang9/rx_zoom/issues"
-  },
-  "homepage": "https://github.com/xinyzhang9/rx_zoom#readme",
+  "license": "MIT",
   "dependencies": {
-    "jquery": "^3.1.1",
-    "rxjs": "^5.1.0"
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "babel-core": "^5.1.11",
+    "babel-loader": "^5.0.0",
+    "babel-jest": "^5.0.1",
+    "rx": "^2.5.2",
+    "webpack": "^1.8.9"
   }
 }
