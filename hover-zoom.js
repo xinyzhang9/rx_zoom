@@ -1,7 +1,3 @@
-/**
- * Created by cmdv on 16/06/15.
- */
-
 'use strict';
 
 import Rx from 'rx';
@@ -60,7 +56,7 @@ var _setUpMove = () =>{
   h1 = $target.height();
   padding = parentDiv.outerWidth();
 
-  $flyout.css({opacity: 1, left: padding, top: -20, width: w1, height: h1});
+  $flyout.css({opacity: 1, left: padding, top: 0, width: w1, height: h1});
 
   w2 = $flyout.width();
   h2 = $flyout.height();

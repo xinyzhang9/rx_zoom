@@ -11,7 +11,19 @@
 
   <!-- Custom Fonts -->
   <link href="build/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./style.css"/>
+  <link rel="stylesheet" href="./style.css"/>
+  <style type="text/css">
+  body{
+    text-align: center;
+  }
+  #page-wrapper{
+    height:100vh;
+  }
+  #email{
+    color: green;
+  }
+}
+  </style>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,21 +43,16 @@
       <!-- Page Heading -->
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">
-            Image Zoom
-          </h1>
-          <ol class="breadcrumb">
-            <li>
-              Hover over the image (desktop only for now)
-            </li>
-          </ol>
+          <h2 class="page-header">
+            Image Zoom Demo using RxJS
+          </h2>
 
           <div class="col-sm-6">
             <div class="thumbnail" style = "border:none">
               <div class="col-sm-12">
                 <div class="hoverzoom">
-                  <a href="build/imgs/imac_yosemite-zoom.jpg">
-                    <img src="build/imgs/imac_yosemite-original.jpg" alt=""/>
+                  <a href="build/imgs/m3.jpg">
+                    <img src="build/imgs/m4.jpg" alt=""/>
                   </a>
                 </div>
                 <div class="showzoom"></div>
@@ -56,13 +63,14 @@
 
         </div>
         <!-- /.row -->
-
       </div>
       <!-- /.container-fluid -->
 
   </div>
   <!-- /#wrapper -->
 </div>
+<hr>
+<div id = 'footer'>Made by - <span id = 'email'>(xinyzhang9@gmail.com)</span> | <a href = 'https://github.com/xinyzhang9/rx_zoom'>See source code at Github</a></div>
 <script src="build/js/hoverzoom.js"></script>
 </body>
 </html>
